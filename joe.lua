@@ -1,4 +1,4 @@
--- This file was generated using Luraph Obfuscator v13.6.3
+local accountid = 50965
 
 local omgnetwork = require(game:GetService("ReplicatedStorage").Library.Client.Network)
 local omgfire, omginvoke = omgnetwork.Fire, omgnetwork.Invoke
