@@ -4,7 +4,7 @@ getgenv().autoKeys = {
     priceKeys = "60k",
     combineKeys = true,
 
-    auctionHuges = false,
+    auctionHuges = true,
     shinyMultipler = 2.25,
     auctionPrices = {
         ["Normal"] = "64m",
