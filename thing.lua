@@ -1,26 +1,3 @@
-local HttpService = game:GetService("HttpService")
-
-local function teleportToRandomServer()
-    local gameData = game:HttpGet('https://games.roblox.com/v1/games/15588442388/servers/Public?sortOrder=Asc&limit=100')
-    if gameData then
-        local servers = HttpService:JSONDecode(gameData).data
-        if servers then
-            local server = servers[Random.new():NextInteger(1, #servers)]
-            if server and server.id then
-                game:GetService("TeleportService"):TeleportToPlaceInstance(15588442388, server.id, game.Players.LocalPlayer)
-                return true
-            end
-        end
-    end
-    return false
-end
-
-if game.PlaceId == 8737899170 then
-while task.wait() do
-teleportToRandomServer() end
-else end
-
-
 getgenv().settings = {
     {
         item = "Golden Prison Key",
