@@ -1,7 +1,7 @@
 getgenv().autoKeys = {
     targetKey = "Tech Key",
     targetHuge = "Huge Cyber Agony",
-    priceKeys = "60k",
+    priceKeys = "50k",
     combineKeys = true,
 
     auctionHuges = true,
