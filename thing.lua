@@ -1,5 +1,3 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Jschlopes/Khlopper-repository/main/opener"))()
-
 getgenv().settings = {
     {
         item = "Mini Chest",
