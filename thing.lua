@@ -1,7 +1,9 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Jschlopes/Khlopper-repository/main/opener"))()
+
 getgenv().settings = {
     {
-        item = "Prison Key",
-        maxPrice = 5000,
+        item = "Mini Chest",
+        maxPrice = 33000,
         class = "Misc"
     }
 }
