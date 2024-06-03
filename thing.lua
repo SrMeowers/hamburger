@@ -1,7 +1,7 @@
 getgenv().settings = {
     {
-        item = "Golden Prison Key",
-        maxPrice = 75000,
+        item = "Prison Key",
+        maxPrice = 5000,
         class = "Misc"
     }
 }
