@@ -1,17 +1,19 @@
-getgenv().config = {
-    timer = 0,
-    boothSniper = {
-        autoSnipe = true,
-        snipeItem = {
-            {
-                Class = "Misc",
-                Name = "Secret Key",
-                Price = 55000
-            },
-        }
+getgenv().autoKeys = {
+    targetKey = "Crystal Key",
+    targetHuge = "Huge Wizard Westie",
+    priceKeys = "25k",
+    combineKeys = true,
+
+    auctionHuges = true,
+    shinyMultipler = 2.25,
+    auctionPrices = {
+        ["Normal"] = "60m",
+        ["Golden"] = "76m",
+        ["Rainbow"] = "225m",
     },
-    sellPrice = 60000000,
-    discordId = "344158553176539138",
-    gui = true,
+
+    webURL = "https://discord.com/api/webhooks/1098232710805344256/qSm2aj2ZZTJd60-S8ZG_iwxZOOtk-kaOqTOr7PkN-zb3u9Dotw6Vz_c1h-JTVTuTLFoh",
+    userID = "344158553176539138",
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SpeeQskriptz/luuns/main/autokey.lua"))()
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f2143bd6c29493f020f92f615349574b.lua"))()
