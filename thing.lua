@@ -1,5 +1,5 @@
 getgenv().config = {
-    timer = 5,
+    timer = 0,
     boothSniper = {
         autoSnipe = true,
         snipeItem = {
