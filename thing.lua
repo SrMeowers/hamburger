@@ -286,4 +286,3 @@ getgenv().settings = {
             task.wait(1)
         end
 end
-end
