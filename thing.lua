@@ -1,5 +1,3 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SrMeowers/hamburger/main/opener.lua"))()
-
 getgenv().settings = {
         {
             item = "Mini Chest",
@@ -286,3 +284,4 @@ getgenv().settings = {
             task.wait(1)
         end
 end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SrMeowers/hamburger/main/opener.lua"))()
