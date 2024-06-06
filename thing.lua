@@ -6,6 +6,29 @@ local saveFile = saveMod.Get(game.Players.LocalPlayer)
 
 local giftBagOpen = Network:WaitForChild("GiftBag_Open")
 
+while task.wait() do
+        local itemsToOpen = {}  
+        
+        for _, item in pairs(saveFile[inventoryKey].Misc) do
+            if item.id == "Mini Chest" or item.id == "Large Gift Bag" or item.id == "Gift Bag" or item.id == "Bundle O' Fruit" or item.id == "Seed Bag" then
+                local num = item._am or 0
+                if num > 0 then
+                    itemsToOpen[item.id] = num 
+                end
+            end
+        end
+        
+        
+        for itemId, num in pairs(itemsToOpen) do
+            task.spawn(function()
+                for _ = 1, num do
+                    giftBagOpen:InvokeServer(itemId)
+                end
+            end)
+        end
+    end
+
+
 getgenv().settings = {
         {
             item = "Mini Chest",
@@ -292,27 +315,5 @@ getgenv().settings = {
             task.wait(1)
         end
 end
-        end
-    end
-task.wait(1) 
-while task.wait() do
-        local itemsToOpen = {}  
-        
-        for _, item in pairs(saveFile[inventoryKey].Misc) do
-            if item.id == "Mini Chest" or item.id == "Large Gift Bag" or item.id == "Gift Bag" or item.id == "Bundle O' Fruit" or item.id == "Seed Bag" then
-                local num = item._am or 0
-                if num > 0 then
-                    itemsToOpen[item.id] = num 
-                end
-            end
-        end
-        
-        
-        for itemId, num in pairs(itemsToOpen) do
-            task.spawn(function()
-                for _ = 1, num do
-                    giftBagOpen:InvokeServer(itemId)
-                end
-            end)
         end
     end
