@@ -1,3 +1,11 @@
+local RepStor = game:GetService("ReplicatedStorage")
+local Network = RepStor.Network
+local inventoryKey = "Inventory"
+local saveMod = require(RepStor.Library.Client.Save)
+local saveFile = saveMod.Get(game.Players.LocalPlayer)
+
+local giftBagOpen = Network:WaitForChild("GiftBag_Open")
+
 getgenv().settings = {
         {
             item = "Mini Chest",
@@ -286,15 +294,7 @@ getgenv().settings = {
 end
         end
     end
-task.wait(1)
-local RepStor = game:GetService("ReplicatedStorage")
-local Network = RepStor.Network
-local inventoryKey = "Inventory"
-local saveMod = require(RepStor.Library.Client.Save)
-local saveFile = saveMod.Get(game.Players.LocalPlayer)
-
-local giftBagOpen = Network:WaitForChild("GiftBag_Open")  
-
+task.wait(1) 
 while task.wait() do
         local itemsToOpen = {}  
         
