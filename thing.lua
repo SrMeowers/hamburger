@@ -283,9 +283,8 @@ getgenv().settings = {
             infoHanlder()
             task.wait(1)
         end
+end
+        end
     end
 task.wait(1)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SrMeowers/hamburger/main/opener.lua"))()
-
-        end
-    end
