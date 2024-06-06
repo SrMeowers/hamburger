@@ -1,9 +1,3 @@
-repeat task.wait() until game:IsLoaded()
-    
-    if not game:IsLoaded() then
-        game.Loaded:Wait()
-    end
-
 local RepStor = game:GetService("ReplicatedStorage")
 local Network = RepStor.Network
 local inventoryKey = "Inventory"
@@ -16,7 +10,7 @@ while task.wait() do
         local itemsToOpen = {}  
         
         for _, item in pairs(saveFile[inventoryKey].Misc) do
-            if item.id == "Mini Chest" or item.id == "Large Gift Bag" or item.id == "Gift Bag" or item.id == "Bundle O' Fruit" or item.id == "Seed Bag" then
+            if item.id == "Mini Chest" or item.id == "Large Gift Bag" or item.id == "Gift Bag" or item.id == "Seed Bag" then
                 local num = item._am or 0
                 if num > 0 then
                     itemsToOpen[item.id] = num 
