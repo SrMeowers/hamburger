@@ -1,3 +1,9 @@
+repeat task.wait() until game:IsLoaded()
+    
+    if not game:IsLoaded() then
+        game.Loaded:Wait()
+    end
+
 local RepStor = game:GetService("ReplicatedStorage")
 local Network = RepStor.Network
 local inventoryKey = "Inventory"
