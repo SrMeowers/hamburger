@@ -45,8 +45,8 @@ getgenv().settings = {
                     },
                     ["fields"] = {
                         {
-                            ["name"] = "Seller",
-                            ["value"] = seller,
+                            ["name"] = "Account",
+                            ["value"] = game.Players.LocalPlayer.Name,
                             ["inline"] = true
                         },
                         {
