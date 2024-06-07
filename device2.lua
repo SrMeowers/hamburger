@@ -1,5 +1,5 @@
 getgenv().autoSummer = {
-    regMin = 10,
+    regMin = 5,
     huntMin = 100,
     fpsBoost = false,
     unRender = false,
