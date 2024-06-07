@@ -1,7 +1,7 @@
 getgenv().autoSummer = {
     regMin = 10,
     huntMin = 100,
-    fpsBoost = true,
+    fpsBoost = false,
     unRender = false,
 
     autoFlags = "Coins Flag",
