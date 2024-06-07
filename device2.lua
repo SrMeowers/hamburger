@@ -1,5 +1,19 @@
-getgenv().AuthKey = "HUGE_V71AbVpO6OKR"
-getgenv().LoadSettings = {
-    Example_Setting = Example_Value
+getgenv().autoSummer = {
+    regMin = 10,
+    huntMin = 100,
+    fpsBoost = true,
+    unRender = false,
+
+    autoFlags = "Coins Flag",
+    autoFruit = true,
+    autoUltimate = true,
+    autoPotion = true,
+    potionCFG = {
+        ["Damage"] = true,
+        ["Lucky"] = true,
+        ["Coins"] = true,
+        ["Diamonds"] = false,
+        ["Treasure Hunter"] = false,
+    }
 }
-loadstring(game:HttpGet("https://HugeGames.io/ps99"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6d198711c95f588617ed621f6ccd5866.lua"))()
