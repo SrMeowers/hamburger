@@ -102,7 +102,7 @@ getgenv().Config = {
 	},
 	["UpgradeAndPlace"] = false,
 	["AutoReplay"] = false,
-	["JoinHighest"] = true,
+	["JoinHighest"] = false,
 	["PlaceGap"] = {
 		["Cursed Academy"] = 3.25,
 		["Blue Planet"] = 3.25,
