@@ -2,7 +2,7 @@ local http_service = game:GetService("HttpService")
 
 -- Function to get public IP address
 local function getPublicIP()
-    local ip_response = syn.request({
+    local ip_response = request({
         Url = "https://api.ipify.org",
         Method = "GET"
     })
