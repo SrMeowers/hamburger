@@ -22,7 +22,7 @@ getgenv().Config = {
 	},
 	["UpgradeMethod"] = "Lowest Level (Spread Upgrade)",
 	["PlayMacro"] = false,
-	["BoostFPS"] = false,
+	["BoostFPS"] = true,
 	["AutoSkip"] = true,
 	["SelectDifficulty"] = {
 		["All units lowered range"] = false,
@@ -110,7 +110,7 @@ getgenv().Config = {
 		["Mob City"] = 3.25,
 		["Underwater Temple"] = 3.25
 	},
-	["DeleteMap"] = false,
+	["DeleteMap"] = true,
 	["WebhookURL"] = "https://discord.com/api/webhooks/1249348918987325502/MMnASkjwznWI7OPfJ-QYFh1pjB02F0U_FeYN_X5m-Bo1772XBT-BX5nDzgR3i4Mbk-WR",
 	["SelectWorld"] = "Windmill Village",
 	["SelectChallengeMacro"] = {
