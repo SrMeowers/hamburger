@@ -92,7 +92,7 @@ getgenv().Config = {
 	["SelectChallengeMacro"] = {
 
 	},
-	["JoinHighest"] = false,
+	["JoinHighest"] = true,
 	["AutoJoinWorld"] = true,
 	["AutoUpgrade"] = true,
 	["PlaceGap"] = {
