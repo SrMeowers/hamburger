@@ -1,5 +1,1 @@
-getgenv().AuthKey = "HUGE_V71AbVpO6OKR"
-getgenv().LoadSettings = {
-    Example_Setting = Example_Value
-}
-loadstring(game:HttpGet("https://HugeGames.io/ps99"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/4544eaf6fe42cff6d80147faef903ff7.lua"))()
