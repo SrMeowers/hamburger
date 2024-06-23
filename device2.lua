@@ -1,3 +1,5 @@
+task.wait(5)
+
 getgenv().AutoClanWar = {
     AutoTap = true,
     FPSBooster = true,
