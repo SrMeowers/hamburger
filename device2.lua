@@ -1,4 +1,4 @@
-task.wait(5)
+task.wait(10)
 
 getgenv().AutoClanWar = {
     AutoTap = true,
