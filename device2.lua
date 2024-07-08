@@ -3,7 +3,7 @@ getgenv().Config = {
     autoHatch = true,
 
     teleport = true, -- true for Teleporting, false for Pathing
-    soloTile = true, -- move away if other players near tile
+    soloTile = false, -- move away if other players near tile
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d780146026110ce8d2c6cbc5371239ee.lua"))()
 
