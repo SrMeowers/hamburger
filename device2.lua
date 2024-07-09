@@ -103,7 +103,7 @@ function SendWebhookLog(Table, WebhookUrl)
     end
 end
 
-while task.wait(10) do
+while task.wait(5) do
     for i,v in check_inventory() do
         if string.find(i, "Huge") then
             local image_id = nil
