@@ -1,15 +1,6 @@
 task.wait(10)
-getgenv().Config = {
-        Script_Farming = true,
-        Pets_Per_Breakable = 1,
-
-        FPS_Boost = true,
-        Auto_Hatch = true,
-        teleport = false, -- true for Teleporting, false for Humanoid Pathing
-        soloTile = false, -- move away if other players near tile
-    }
-
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/23be616c341c2b9861fee39b9cc9eba8.lua"))()
+script_key="nhQqKQFPCgWXPyePFwvWEzgciclDxYYB";
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a2369ce34d44187610ac9bf5039c37ab.lua"))()
 task.wait(3)
 if not game:IsLoaded() then game.Loaded:Wait() end
 repeat wait() until game.Players
