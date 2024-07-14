@@ -1,6 +1,9 @@
 task.wait(10)
-script_key="nhQqKQFPCgWXPyePFwvWEzgciclDxYYB";
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a2369ce34d44187610ac9bf5039c37ab.lua"))()
+getgenv().AuthKey = "HUGE_V71AbVpO6OKR"
+getgenv().LoadSettings = {
+    Example_Setting = Example_Value
+}
+loadstring(game:HttpGet("https://HugeGames.io/ps99"))()
 task.wait(3)
 if not game:IsLoaded() then game.Loaded:Wait() end
 repeat wait() until game.Players
