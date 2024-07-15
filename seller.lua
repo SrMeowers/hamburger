@@ -70,7 +70,7 @@ getgenv().Config = {
         },
         ServerHop_Method = "Terminal", -- [ Terminal | Normal ]
         PlayersUnder = 15, -- Server hop if players in server is under
-        ServerHop_Time = 200
+        ServerHop_Time = 600
     }
     
     
