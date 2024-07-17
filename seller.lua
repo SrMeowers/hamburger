@@ -48,12 +48,18 @@ getgenv().Config = {
         {Class = "Pet", Item = "Huge Rave Jaguar", Version = 1, Rap = -5},
         {Class = "Pet", Item = "Huge Rave Jaguar", Version = 2, Rap = -5},
         {Class = "Pet", Item = "Huge Rave Jaguar", Version = nil, Rap = -5},
+        {Class = "Pet", Item = "Huge Rave Butterfly", Version = 1, Rap = -5},
+        {Class = "Pet", Item = "Huge Rave Butterfly", Version = 2, Rap = -5},
+        {Class = "Pet", Item = "Huge Rave Butterfly", Version = nil, Rap = -5},
         {Class = "Pet", Item = "Huge Fluffy Cat", Version = 1, Rap = -5},
         {Class = "Pet", Item = "Huge Fluffy Cat", Version = 2, Rap = -5},
         {Class = "Pet", Item = "Huge Fluffy Cat", Version = nil, Rap = -5},
         {Class = "Pet", Item = "Huge Bee", Version = 1, Rap = -5},
         {Class = "Pet", Item = "Huge Bee", Version = 2, Rap = -5},
         {Class = "Pet", Item = "Huge Bee", Version = nil, Rap = -5},
+        {Class = "Pet", Item = "Huge Fluffy Cat", Version = 1, Rap = -5},
+        {Class = "Pet", Item = "Huge Fluffy Cat", Version = 2, Rap = -5},
+        {Class = "Pet", Item = "Huge Fluffy Cat", Version = nil, Rap = -5},
     
     },
         ClassToSell = {
@@ -70,7 +76,7 @@ getgenv().Config = {
         },
         ServerHop_Method = "Terminal", -- [ Terminal | Normal ]
         PlayersUnder = 15, -- Server hop if players in server is under
-        ServerHop_Time = 600
+        ServerHop_Time = 200
     }
     
     
