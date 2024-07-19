@@ -2,7 +2,7 @@ getgenv().Config = {
     ItemsToSell = {
         {Class = "Pet", Item = "Huge Punksky", Version = 1, Rap = -5},
         {Class = "Pet", Item = "Huge Punksky", Version = 2, Rap = -8},
-        {Class = "Pet", Item = "Huge Punksky", Version = nil, Rap = -5},
+        {Class = "Pet", Item = "Huge Punksky", Version = nil, Rap = -8},
         {Class = "Pet", Item = "Huge Avenging Griffin", Version = 1, Rap = -5},
         {Class = "Pet", Item = "Huge Avenging Griffin", Version = 2, Rap = -5},
         {Class = "Pet", Item = "Huge Avenging Griffin", Version = nil, Rap = -5},
