@@ -1,6 +1,5 @@
 task.wait(10)
 script_key = "nhQqKQFPCgWXPyePFwvWEzgciclDxYYB";
-getgenv().LoadSettings = nil -- Replace 'nil' with Copied Settings if you want to import to other devices
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/23521cea1cff5c0e428954401f395af3.lua"))()
 task.wait(3)
 if not game:IsLoaded() then game.Loaded:Wait() end
