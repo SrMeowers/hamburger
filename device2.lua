@@ -1,7 +1,6 @@
 task.wait(10)
-script_key = "nhQqKQFPCgWXPyePFwvWEzgciclDxYYB";
-getgenv().LoadSettings = [[{"Inventory":{"Potions":{"Level":1,"Potion":[],"Use":false},"RandomEvents":{"Event":"","Use":false},"Flags":{"Flag":"Shiny Flag","Use":false},"Spawnables":{"Item":"","Use":false},"Fruits":{"Fruit":[],"Use":false},"GiftBags":{"Gifts":[],"Use":false},"Lootbox":{"Lootbox":"None","Use":false}},"Hatching":{"Egg":"0 - Best Unlocked","MailUser":"Enter your Username.","Webhook":"Enter your Webhook Url.","Amount":0,"Start":false,"HugeNotif":false,"MailStart":false},"Optimization":{"HatchAnim":true,"Teleports":true,"Drops":true,"Breakables":false,"SkipSpin":true,"Startup":{"Instance":"","autoJoin":false},"Pets":false,"PetSpeed":true,"Items":true,"Scripts":false,"Machines":true,"Confetti":true,"Merchants":true,"Wheels":true,"World":false},"Farming":{"Flags":{"Flag":"Shiny Flag","Use":false},"PetsPerBreakable":3,"UseTNT":false,"Zone":"0 - Best Unlocked","Start":false,"MovementMode":"Teleporting","ZoneMovement":false,"Ultimate":false},"UIScale":0.9,"Machines":{"Golden":false,"Rainbow":false,"Method":"All Available Pets","Fuse":false},"LoadSettings":true,"World":{"BuyUpgrades":false,"AutoWorld":false,"CollectRelics":false,"Instances":{"FlowerGarden":{"Seed":"None","Use":false},"Millionaire":{"MaxPercent":80,"Run":false,"MaxRoom":20}}}}]]
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/23521cea1cff5c0e428954401f395af3.lua"))()
+script_key="nhQqKQFPCgWXPyePFwvWEzgciclDxYYB";
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a2369ce34d44187610ac9bf5039c37ab.lua"))()
 task.wait(3)
 if not game:IsLoaded() then game.Loaded:Wait() end
 repeat wait() until game.Players
