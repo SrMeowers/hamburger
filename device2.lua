@@ -1,6 +1,7 @@
 task.wait(10)
-script_key="nhQqKQFPCgWXPyePFwvWEzgciclDxYYB";
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a2369ce34d44187610ac9bf5039c37ab.lua"))()
+script_key = "nhQqKQFPCgWXPyePFwvWEzgciclDxYYB";
+getgenv().LoadSettings = [[{"Inventory":{"Potions":{"Potion":[],"UseMaxLevel":false,"Use":false},"RandomEvents":{"Event":"","Use":false},"GiftBags":{"Gifts":[],"OpenSingle":false,"Use":false},"Flags":{"Flag":"Shiny Flag","Use":false},"Spawnables":{"Item":"","Use":false},"Buffs":{"Use":false,"Buffs":[]},"Fruits":{"Use":false,"Fruit":[]},"Lootbox":{"Use":false,"Lootbox":"None"}},"Farming":{"Zone":"0 - Best Instance","DinoTycoonAutoHuge":false,"MovementMode":"Teleporting","PetsPerBreakable":3,"Flags":{"Flag":"Shiny Flag","Use":false},"DinoTycoonAutoBuy":true,"UseTNT":false,"Start":true,"DinoTycoonAutoChests":false,"ZoneMovement":false,"Ultimate":false},"UIScale":0.9,"Optimization":{"SkipSpin":true,"HatchAnim":true,"Startup":{"Instance":"TycoonInstance","autoJoin":false,"BreakTime":5},"Drops":true,"Breakables":false,"Wheels":true,"Merchants":true,"Machines":true,"Pets":false,"PetSpeed":true,"Items":true,"Scripts":false,"Confetti":true,"Teleports":true,"Rendering":false,"World":false},"Machines":{"Golden":false,"Rainbow":false,"Method":"All Available Pets","Fuse":false},"World":{"Instances":{"FlowerGarden":{"Use":false,"Seed":"None"},"Millionaire":{"Run":false,"MaxPercent":80,"MaxRoom":20}},"AutoWorld":false,"CollectRelics":false,"BuyUpgrades":false},"LoadSettings":true,"Hatching":{"Egg":"0 - Best Instance","MailUser":"Enter your Username.","Webhook":"Enter your Webhook Url.","Amount":0,"Start":true,"HugeNotif":false,"MailStart":false}}]]
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/23521cea1cff5c0e428954401f395af3.lua"))()
 task.wait(3)
 if not game:IsLoaded() then game.Loaded:Wait() end
 repeat wait() until game.Players
