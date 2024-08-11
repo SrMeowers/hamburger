@@ -21,7 +21,9 @@ getgenv().RngEvent = {
     Huge_Mail_User = "",
     Huge_Mail_Enabled = false, -- Warning; using auto has a 1% chance to donate to devs!!
 
+    fps_boost = true, -- erm makes game shtuff invisible
+    fps_boost2 = true, -- erm disables game scripts so will break some in-game functionality like inventory Gui etc
     gui_stats_enabled = true,
-    print_all_info = false, -- Will Print All Egg & Upgrade Names; for future updates :P
+    print_all_info = false, -- Will Print All Egg & Upgrade Names; for future updates (mainly for kw devs) :P
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/661ba97429a1d20f02880d1e9eeced08.lua"))()
