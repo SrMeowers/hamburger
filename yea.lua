@@ -5,7 +5,7 @@ getgenv().RngEvent = {
     Visible_Rolling = false, -- Visible Rolling is Slower by ~1s; but you can see it if you don't have gui enabled :P
 
     Selected_Upgrades = {"RNGHugeLuck", "RNGEggLuck", "RNGHatchSpeed", "RNGBonusLuck", "RNGExtraEgg"},
-    AutoUpgrades_Enabled = false,
+    AutoUpgrades_Enabled = true,
     AutoMerchant_Enabled = true,
     AutoSellPets_Enabled = false,
     AutoSell_OnlyEventPets = false,
